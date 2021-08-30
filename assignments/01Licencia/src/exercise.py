@@ -11,7 +11,7 @@ def main():
     elif(edad>=18 and identificacion=="s"):
         print("Trámite de licencia concedido")
 
-    else:
+    elif(edad<=18 or identificacion=="n"):
         print("No cumples requisitos")
 
 
