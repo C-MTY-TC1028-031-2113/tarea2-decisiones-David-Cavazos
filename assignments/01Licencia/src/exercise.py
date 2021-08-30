@@ -10,10 +10,8 @@ def main():
     except ValueError:
         correcto = False
 
-    if(edad<0):
-        print("Respuesta incorrecta")
-    elif(correcto==False):
-        print("Respuesta incorrecta")
+    if(correcto==False or edad<0):
+        print("No cumples requisitos")
     elif(edad<18 ):
         print("No cumples requisitos")
     else: 
