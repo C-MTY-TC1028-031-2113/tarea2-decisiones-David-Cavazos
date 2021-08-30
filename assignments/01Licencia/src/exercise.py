@@ -1,6 +1,8 @@
 
 def main():
     edad = int(input("Ingresa tu edad: "))
+    if(edad<0):
+        print("Respuesta incorrecta")
     if(edad<18 ):
         print("No cumples requisitos")
     else: 
@@ -14,7 +16,7 @@ def main():
 
         elif(edad>=18 and identificacion=="s"):
             print("Trámite de licencia concedido")
-        else:
+        elif(identificacion =="n"):
             print("No cumples requisitos")
 
     
