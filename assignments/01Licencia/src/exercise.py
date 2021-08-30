@@ -10,7 +10,7 @@ def main():
     elif(edad<18 ):
         print("No cumples requisitos")
     else: 
-        identificacion = input("¿Tienes identificación oficial? (s/n): ")
+        identificacion = str(input("¿Tienes identificación oficial? (s/n): "))
 
 
         if(identificacion !="s" and identificacion !="n"):
